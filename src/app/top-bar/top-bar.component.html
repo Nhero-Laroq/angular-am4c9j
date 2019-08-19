@@ -1,5 +1,17 @@
-<a [routerLink]="['/']">
+<button mat-button [matMenuTriggerFor]="menu" class="main-menu-button">
+  <i class="material-icons">menu</i>
+</button>
+
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Job Suche</button>
+  <button mat-menu-item>Online Statistik</button>
+  <button mat-menu-item>Repository Suche</button><button mat-menu-item>Online Statistik</button>
+  <button mat-menu-item>Archiv Links</button>
+  <button mat-menu-item>Formular Zuordnung</button>
+</mat-menu>
+
+<a [routerLink]="['/']" style="">
 	<h1>Assentis InfoPage</h1>
 </a>
 
-<a [routerLink]="['/']" class="button fancy-button"><i class="3d_rotation">3d_rotation</i>Checkout</a>
+<a [routerLink]="['/']" class="button fancy-button"><i class="material-icons">fingerprint</i>Login</a>

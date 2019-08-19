@@ -1,0 +1,29 @@
+.sidenav-container {
+    height: 90%;
+}
+
+.sidenav-content {
+    /*overflow: hidden;*/
+}
+
+.card-router {
+    padding: 8px;
+    height: 100%;
+}
+
+.toolbar-header {
+    color: #ffffff !important;
+    border-bottom: inset;
+    background-color: #337ab7;
+    border-width: 1px;
+}
+
+.toolbar-spacer {
+    flex: 1 1 auto;
+}
+
+.toolbar-error-icon {
+    font-size: 32px;
+    height: 32px;
+    width: 32px;
+}
